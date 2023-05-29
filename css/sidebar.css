@@ -1,0 +1,43 @@
+#sidebarSection {
+    width: 100px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#menu{
+    margin-top: 35px;
+}
+
+#common{
+    margin-top: -90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.imgIcon{
+    width: 25px;
+}
+
+.imgIcon:hover{
+    cursor: pointer;
+    box-shadow: 0px 1px 12px 1px rgba(0, 0, 0, 0.45);
+}
+
+#profile{
+    margin-bottom: 40px;   
+}
+
+#profile:hover{
+    cursor: pointer;
+    box-shadow: 0px 1px 12px 1px rgba(0, 0, 0, 0.45);
+}

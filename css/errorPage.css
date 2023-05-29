@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(3, 3, 3);
+
+}
+
+
+
+#logo{
+    margin: 20px 70px ;
+}
+
+#middleSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.errorImg{
+    border: 2px solid white;
+    padding: 2%;
+    width: 45%;
+}
+
+
+#button{
+    padding: 12px 50px;
+    margin: 15px auto;
+    background: transparent;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 6px;
+    font-family:'Courier New';
+}
+
+#footer{
+    text-align: center;
+    color: #fff;
+}

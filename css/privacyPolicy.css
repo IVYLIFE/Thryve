@@ -1,0 +1,148 @@
+/* :root{
+    --primary-color: #00DB99;
+    --dark-color : #2A2A2A;
+    --gray-color : #5C5C5C;
+    --light-color:#ffffff;
+} */
+
+:root{
+    --primary-color: #00DB99;
+    --dark-color : #ffffff;
+    --gray-color : #a5a5a5;
+    --light-color:#2A2A2A;
+}
+
+@font-face {
+    font-family: 'BreeSerif';
+    src: url('../../font/Bree/bree.ttf');
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../../font/Poppin.ttf');
+}
+
+body{
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'poppins';
+    color: var(--dark-color);
+    background-color: #1A1A1A;
+}
+
+#logoContainer{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    height: 60px;
+    margin-bottom: -80px;
+}
+#logoContainer img{
+    height: 150%;
+}
+
+#footer{
+    position: relative;
+    top: 50px;
+    height: 5%;
+    text-align: center;
+    font-family: 'BreeSerif';
+    color: var(--gray-color);
+}
+
+#policy{
+    margin: 0px auto;
+    width: 70%;
+}
+
+#policyContainer{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 360px;
+    max-width: fit-content;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    background-color: var(--light-color);
+}
+
+#policyContainer:hover{
+    box-shadow: 0px 1px 12px 1px rgba(0, 0, 0, 0.25);
+}
+
+#greetMsg1{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'BreeSerif';
+    letter-spacing: 0.03em;
+    margin-top: -50px;
+}
+
+#greetMsg2{
+    width: 100%;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--gray-color);
+}
+
+#thryve{
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+p{
+    color: var(--gray-color);
+    font-size: 13px;
+    margin-top: -2px;
+}
+
+.heading{
+    margin: 8px;
+}
+.firstPara{
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* media query for small device */
+
+@media only screen and (max-width: 500px) {
+    #mainSection {
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+    }
+    .sixty{
+        width: 100%;
+        align-items: center;
+    }
+    .fourty{
+        width: 100%;
+        align-items: center;
+    }
+    #logoContainer{
+        align-items: center;
+    }
+
+    #illustrationContainer{
+        margin-left: 50px;
+        align-items: center;
+    }
+
+  }
+
